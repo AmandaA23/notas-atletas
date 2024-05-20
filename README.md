@@ -1,6 +1,6 @@
 # notas-atletas
 
-##Projeto: Calcular média dos atletas
+Projeto: Calcular média dos atletas
 
 Observações/especificações:
 
