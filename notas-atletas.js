@@ -15,6 +15,15 @@ function calcularMedia(atletas) {
     // Calcular a média
     let media = soma / notasEliminadas.length;
 
+    // resultados
+
+    console.log(`Atleta: ${atleta.nome}`);
+    console.log(`Notas Obtidas: ${atleta.notas.join(",")}`);
+    console.log(`Média Válida: ${media}`);
+    console.log('');
+  });
+}      
+
     let atletas = [
  {
    nome: "Cesar Abascal",
@@ -34,10 +43,4 @@ function calcularMedia(atletas) {
  }
 ];
 
- // resultados no console
-
-    console.log(`Atleta: ${atleta.nome}`);
-    console.log(`Notas Obtidas: ${atleta.notas.join(",")}`);
-    console.log(`Média Válida: ${media}`);
-  });
-}
+ calcularMedia(atletas);
